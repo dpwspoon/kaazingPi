@@ -29,8 +29,13 @@ public class PiClient {
      */
     public static void main(String[] args) throws Exception {
         
+    	// GpioController is used to connect to the GIOP
         GpioController gpio = GpioFactory.getInstance();
+        
+        // turn it off by default
         final GpioPinDigitalOutput outputPin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_01, "MyLED", PinState.LOW);
+        
+        // The flag is used to exit the application on exception in connection exception listener
         final AtomicBoolean exitApp = new AtomicBoolean(false);
         
         // Stores the captured status of the led connected through GPIO
@@ -68,12 +73,17 @@ public class PiClient {
             public void onMessage(Message message) {
                 if (message instanceof TextMessage) {
                     try {
+                    	
+                    	// check the command
                         String command = ((TextMessage)message).getText();
                         System.out.println("Command Received: " + command);
+                        
+                        // if the command is 'on', turn on the led
                         if (command.equalsIgnoreCase("on")) {
                             ledStatus.set(true);
                         }
                         else if (command.equalsIgnoreCase("off")) {
+                        	// if the command is 'off', turn off the led
                             ledStatus.set(false);
                         }
                         
@@ -91,6 +101,7 @@ public class PiClient {
             }
         });
         
+        // Send the led status "on or off" in every 5 seconds
         ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
         exec.scheduleAtFixedRate(new Runnable() {
           @Override
