@@ -7,6 +7,8 @@ Projects:
 
 <h2>PiClient</h2> (https://github.com/dpwspoon/kaazingPi/tree/master/PiClient)
 
+Video Demo http://www.youtube.com/watch?feature=player_embedded&v=bLF7QwHOvRY
+
 The project is a JMS Client created using Java Kaazing JMS Websocket Client library. The client runs on the Raspberry Pi (Wheezy).
 The client sends the status of the LED connected to the RaspberryPi to the Kaazing JMS Gateway (We control the GPIO thanks to the awesome Pi4J Library). The client sends the status to 
 the topic "/topic/status". Any consumer connected to the same Kaasing JMS Gateway will be able to retrieve the status of 
