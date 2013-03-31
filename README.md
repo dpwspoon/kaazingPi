@@ -3,11 +3,17 @@ kaazingPi
 
 Kaazing JMS Websocket Gateway integrated with the RaspberryPi
 
-<h2>Projects</h2> 
+<h5>Projects</h5> 
 
 RCCar: Remote controlled car using Kaazing JMS websocket server, Raspberry Pi, a Remote controlled car, and a smart phone
 
 PiClient: Controlling an LED using Kaazing JMS websocket server, Raspberry Pi, and any browser
+
+<h5> Documentation/Reference </h5>
+
+http://tech.kaazing.com/documentation/jms/
+
+http://pi4j.com/
 
 <h2>RCCar</h2> (https://github.com/dpwspoon/kaazingPi/tree/master/RCCar)
 
