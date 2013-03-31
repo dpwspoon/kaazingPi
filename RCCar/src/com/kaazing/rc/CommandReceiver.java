@@ -21,7 +21,7 @@ public class CommandReceiver {
 	private final Car car = new Car();
 	private final Connection connection;
 	private String currentUserKey = "no-one";
-	private final string urlToConnectTo = "ws://demo-dev.kaazing.com:80/jms";
+	private final string urlToConnectTo = "URL TO CONNECT TO GOES HERE";
 
 	public CommandReceiver() throws Exception {
 		// Get JMS Stomp Factory
