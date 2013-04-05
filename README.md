@@ -1,8 +1,8 @@
-kaazingPi
-
-=========
+<h5>kaazingPi</h5> 
 
 Kaazing JMS Websocket Gateway integrated with the RaspberryPi
+
+=========
 
 <h5>Projects</h5> 
 
