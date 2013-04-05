@@ -1,4 +1,4 @@
-<h5>kaazingPi</h5> 
+<h2>kaazingPi</h2> 
 
 Kaazing JMS Websocket Gateway integrated with the RaspberryPi
 
