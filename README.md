@@ -1,4 +1,5 @@
 kaazingPi
+
 =========
 
 Kaazing JMS Websocket Gateway integrated with the RaspberryPi
@@ -50,4 +51,6 @@ Add more.... (stay tuned)
 enjoy ;-)
 
 
+=========
 
+All code and thoughts posted in this repository are independent of Kaazing Corporation
