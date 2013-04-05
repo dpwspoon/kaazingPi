@@ -55,4 +55,4 @@ enjoy ;-)
 =========
 <h2>NOTE</h2>
 
-All code and thoughts posted in this repository are independent of Kaazing Corporation,  Source code maybe compiled/changed/editted and used independently by Kaazing for demoes or other use
+All code and thoughts posted here are independent of Kaazing Corporation,  Source code maybe compiled/changed/editted and used independently by Kaazing for demoes or other use
