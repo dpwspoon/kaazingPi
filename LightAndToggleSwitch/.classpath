@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/pi4j-core.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activemq-camel-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activemq-console-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activemq-core-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activemq-jaas-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activemq-protobuf-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/activemq-web-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/camel-core-2.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/camel-jetty-2.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/camel-jms-2.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/camel-spring-2.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/geronimo-jms_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/geronimo-jta_1.0.1B_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/jaxb-impl-2.1.6.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/jcl-over-slf4j-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/kahadb-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/slf4j-api-1.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/stax-1.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/slf4j-log4j12-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/activemq/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/com.kaazing.gateway.core.client.java.kerberos.jar"/>
+	<classpathentry kind="lib" path="lib/com.kaazing.gateway.jms.client.java.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-jms_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
