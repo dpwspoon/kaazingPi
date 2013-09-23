@@ -32,12 +32,12 @@ public class ToggleJmsWsListener extends AbstractJmsMessenger implements
 
         try {
             toggle = new Toggle();
-            connectionFactory = new StompConnectionFactory(URI.create("ws://"
+			connectionFactory = new StompConnectionFactory(URI.create("ws://"
                     + GATEWAY_HOST + "/jms"));
             connection = connectionFactory.createConnection();
             connection.setExceptionListener(new DefaultExceptionListener());
             session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-            topic = session.createTopic(LIGHT_TOPIC);
+            topic = session.createTopic(LIGHT_TOPIC_WS);
             producer = session.createProducer(topic);
 
             // clean shutdown listener

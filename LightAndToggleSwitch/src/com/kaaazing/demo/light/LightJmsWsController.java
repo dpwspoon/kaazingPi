@@ -34,7 +34,7 @@ public class LightJmsWsController extends AbstractJmsMessenger {
 			connection = connectionFactory.createConnection();
 			connection.setExceptionListener(new DefaultExceptionListener());
 			session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-			topic = session.createTopic(LIGHT_TOPIC);
+			topic = session.createTopic(LIGHT_TOPIC_WS);
 			consumer = session.createConsumer(topic);
 			consumer.setMessageListener(new MessageListener() {
 
@@ -63,6 +63,7 @@ public class LightJmsWsController extends AbstractJmsMessenger {
 			System.out.println("Light initialized");
 		} catch (JMSException e) {
 			shutdown();
+			e.printStackTrace();
 			throw new RuntimeException(e.getMessage());
 		}
 	}

@@ -84,7 +84,7 @@ public class LightJmsTcpController extends AbstractJmsMessenger {
     }
 
     public static void main(String[] args) throws JMSException, InterruptedException {
-        LightJmsWsController lightController = new LightJmsWsController();
+        LightJmsTcpController lightController = new LightJmsTcpController();
         while (lightController.isRunning()) {
             Thread.sleep(1000);
         }
