@@ -5,7 +5,7 @@ Kaazing JMS Websocket Gateway integrated with the RaspberryPi
 =========
 <br/>
 <h5>Projects</h5> 
-LightAndToggleSwitch: If you are getting started with this libraries I would start here.  The code will walk you through interfacing RaspberryPi's with simple hardware (a light or LED and a switch), the connecting them to a JMS message broker, and then running them to the message broker with a websocket gateway (one line of code change).
+LightAndToggleSwitch: If you are getting started with this libraries I would start here.  The code will walk you through interfacing RaspberryPi's with simple hardware (a light or LED and a switch), then connecting them to a JMS message broker, and then running them to the message broker with a websocket gateway (one line of code change).
 <br/>
 RCCar: Remote controlled car using Kaazing JMS websocket server, Raspberry Pi, a Remote controlled car, and a smart phone
 <br/>
@@ -29,7 +29,7 @@ This project and the IoT architecture that it demonstrates will be presented at 
 1) Set up the RaspberryPi with Pi4J and Java (see http://pi4j.com for help)
 <br/>2) On your development computer (ie not the pi) checkout the LightAndToggleSwitch project.
 <br/>3) Import the project into eclipse
-<br/>4) Depending on your version of eclipse, the required library folders may not be included.  If this is the case you should see numerous errors.  To include the libraries edit the BuildPath to include the jars in LightAndToggleSwitch/lib/.  Note: Having all the jars included will not hurt anything but only a small subset is truely required for each individual project you can build.
+<br/>4) Depending on your version of eclipse, the required library folders may not be included.  If this is the case you should see numerous errors.  To include the libraries edit the BuildPath to include the jars in LightAndToggleSwitch/lib/.  Note: Having all the jars included will not hurt anything but only a small subset is truly required for each individual project you can build.
 
 <br/>5) There are 6 class files with main methods in them that you can run on the pi.  Each requires a specific setup.  The simplist is the Light.java.  To run Light.java on the pi do the following.
 <br/>&nbsp;    a) go to Light.java and run as an Application  (you should see errors saying no Gpio)
@@ -111,5 +111,5 @@ the LED from any client anywhere in the world (in realtime, thanks to websockets
 <br/>=========
 <br/><h2>NOTE</h2>
 <br/>
-<br/>All code and thoughts posted here are independent of Kaazing Corporation,  Source code maybe compiled/changed/editted <br/>and used independently by Kaazing or others for there own use
+<br/>All code and thoughts posted here are independent of Kaazing Corporation,  Source code maybe compiled/changed/edited <br/>and used independently by Kaazing or others for their own use
 <br/>
